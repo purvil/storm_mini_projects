@@ -21,7 +21,7 @@ public class MyFirstSpout extends BaseRichSpout {
     }
 
     public void nextTuple() {
-        this.collector.emit(new Values(this.i));
+        this.collector.emit(new Values(this.i)); // Pass the value to next component
         this.i = this.i + 1;
     }
 

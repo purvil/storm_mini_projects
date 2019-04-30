@@ -10,7 +10,7 @@ public class TopologyMain {
 
         TopologyBuilder builder = new TopologyBuilder();
         builder.setSpout("My-first-spout", new MyFirstSpout());
-        builder.setBolt("my-first-bolt", new MyFirstBolt());
+        builder.setBolt("my-first-bolt", new MyFirstBolt()).shuffleGrouping("My-first-spout");
 
         //Configuration
         Config conf = new Config();
