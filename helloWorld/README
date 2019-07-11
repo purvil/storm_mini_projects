@@ -1,0 +1,5 @@
+=> Spout will create sequence of numbers
+=> It will send it to Bolt, Bolt will process it and make it an even number.
+=> We will have to setup 3 class, 1 for Bolt, 1 for Spout and 1 for overall topology.
+=> We specify dependency in pom.xml file. For here we are compiling locally so we specify scope as compile.
+=> But to submit jar to storm cluster we have to pack application in jar. 
