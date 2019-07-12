@@ -1,0 +1,3 @@
+* Here we will read a stream of strings from a file.
+* Spout will pass it to Bolt line by line
+* Bolt will append additional string to it.
