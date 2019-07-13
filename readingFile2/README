@@ -1,0 +1,3 @@
+* Here we have 1 spout and 1 bolt
+* Spout will read the file and emit, its content line by line as tuple.
+* Bolt will fetch first name and last name from it and write it to file
