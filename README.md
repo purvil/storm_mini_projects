@@ -7,3 +7,7 @@
 ### [Read From File](https://github.com/purvil/storm_mini_projects/tree/master/readingFile)
 * Spout will read data from file line by line
 * Bolt will process each line and modify it.
+
+### [Read file and write to file](https://github.com/purvil/storm_mini_projects/tree/master/readingFile2)
+* Spout will read data from file line by line
+* Bolt will process each line and parse it, also write back to text file.
