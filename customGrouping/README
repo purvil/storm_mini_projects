@@ -1,0 +1,3 @@
+* Spout is generating the integer from 1 to 100.
+* Bolt is handling it and write to appropriate file. We have 2 instances of bolt
+* We have implemented custom grouping class, which equally distributes load of events between bolt instances.
