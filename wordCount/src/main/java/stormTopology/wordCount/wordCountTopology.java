@@ -27,5 +27,4 @@ public class wordCountTopology {
 			cluster.shutdown();
 		}
 	}
-
 }
