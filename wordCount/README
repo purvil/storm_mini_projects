@@ -1,0 +1,6 @@
+* Spout read the file line by line and emit the line
+* wordNormalizerBolt will have line and it break down line as word and emit the word after cleaning it.
+* wordNormalizerBolt and wordCountSpout is connected via shuffle grouping.
+* wordCountBolt will have word and store it's count to hash map.
+* wordNormalizerBolt and wordCountBolt are connected as field grouping.
+* At last wordCountBolt will write count to file.
