@@ -1,0 +1,4 @@
+* Spout is generating the integer from 1 to 100.
+* Bolt is handling it and write to appropriate file. We have 2 instances of bolt
+* As here we are using direct grouping, we define logic of grouping in the class which emit data, I defined
+logic in Spout and it will directly emit data to appropriate instance based on grouping logic.
