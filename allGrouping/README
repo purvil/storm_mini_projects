@@ -1,0 +1,3 @@
+* Spout is generating the integer from 1 to 100.
+* Bolt is handling it and write to appropriate file. We have 2 instances of bolt
+* As here we are using all grouping each record will go to both instances of bolt.
